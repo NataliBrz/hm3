@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Выберите тему сайта</h1>
+    <select name="select" id="selectID" onchange="change()">
+        <option disabled selected='selected'>Выберите цвет фона</option>
+        <option id="green" value='GR'>Green</option>
+        <option id="yellow" value='YE'>Yellow</option>
+        <option id="blue" value='BL'>Blue</option>
+        <option id="blue" value='WH'>White</option>
+
+    </select>
+
+    <h1>Калькулятор</h1>
+    <input id="a" type="text" placeholder="Введите первое число" />
+    <input id="b" type="text" placeholder="Введите второе число" />
+    <br> <br>
+    <button id="summ">Сумма</button>
+    <button id="rest">Разность</button>
+    <button id="mult">Произведение</button>
+    <button id="del">Частное</button>
+    <div id="result"></div>
+
+
+
+    <div>
+        <form>
+            <h1> Sign up </h1>
+            <p>
+                <label>Your name</label>
+                <input class="name" id="name" type="text" placeholder="MyName" />
+            </p>
+            <p>
+                <label>Your username</label>
+                <input id="user" type="text" placeholder="MyUserName" />
+            </p>
+            <p>
+                <label> Your email</label>
+                <input id="email" type="text" placeholder="example@example.com" />
+            </p>
+            <p>
+                <label>Your password </label>
+                <input id="pass" type="password" placeholder="YourPassword" />
+            </p>
+            <p>
+                <label>Please confirm your password
+                </label>
+                <input id="passrep" type="password" placeholder="Repeat your password" />
+            </p>
+            <button id="button">Sign up</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
